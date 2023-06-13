@@ -4,14 +4,30 @@ body
     text-align: center;
     font-family: "Arial";
     font-size: 16px;
-    margin: 0;
-    padding: 0;
+    margin: 2;
+    padding: 2;
 }
- 
+ #cabecera
+ {
+    background: purple;
+    box-shadow: 0px 2px 50px 0px rgba(0,0,0,0.75);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px;
+ }
+
+ #cabecera #tangline
+ {
+    font-weight: normal;
+    font-size: 0.8em;
+    padding: 0.8em;
+ }
+
 #container
 {
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
@@ -19,5 +35,5 @@ body
 
 #container h1
 {
-    font-size: 20px;
+    font-size: 1em;
 }
